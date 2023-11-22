@@ -35,7 +35,7 @@ app.use(bodyParser.urlencoded({ limit: "50mb", extended: true, parameterLimit: 5
 app.use("/users", userRoutes);
 app.use("/recipe", RecipeRoutes);
 
-const port = 5500;
+const port = process.env.port || 5500;
 app.listen(port, () => {
   console.log("Server started on " + port);
 });
