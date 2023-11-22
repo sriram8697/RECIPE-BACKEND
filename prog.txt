@@ -1,0 +1,19 @@
+user 
+-----    
+    registration 
+    login
+    update
+    delete
+    get
+ingredients
+-----------
+    create
+    delete
+    get
+
+Have to do
+----------
+    ingredients -> update,
+    recipes -> create,read,delete,update,
+    Authentication.
+    UI.
