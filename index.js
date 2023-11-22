@@ -4,7 +4,7 @@ const userRoutes = require('./routes/userRoutes');
 const bodyParser = require('body-parser');
 const cors = require("cors");
 const cookie = require("cookie-parser");
-const RecipeRoutes = require("./routes/RecipeRoutes");
+const RecipeRoutes = require("./routes/recipeRoutes");
 
 const app = express();
 mongoose.set("strictQuery", true);
