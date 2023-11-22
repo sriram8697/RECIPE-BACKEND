@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const recipeSchema = require("../schema/RecipeSchema");
+const recipeSchema = require("../schema/recipeSchema");
 const { auth } = require("../config/jwt");
 //add
 router.post("/addrecipe", auth, (req,res,next) =>
