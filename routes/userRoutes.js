@@ -12,7 +12,7 @@ router.post("/signup", (req, res, next) => {
     "name": req.body.name,
     "email": req.body.email,
     "password": req.body.password,
-    "role": "user"
+    "role": "admin"
   }
   userSchema.find({"email":details.email}).then(userObj=> {
     if(userObj.length == 0){
