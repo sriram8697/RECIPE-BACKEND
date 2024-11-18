@@ -21,6 +21,7 @@ db.on("open", () => {
 db.on("error", (err) => {
   console.log("error in connecting to database", err);
 });
+
 app.use(bodyParser.json());
 app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: true }));
